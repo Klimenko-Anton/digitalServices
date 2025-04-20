@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css?_v=20250420205846">
+  <link rel="icon" type="image/x-icon" href="img/favicons/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+  <title>Цифровые финансовые сервисы</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+  <div class="header__wrapper" data-lp>
+    <div class="header__container">
+      <div class="header__info">
+        <a class="header__logo" href="#">
+          <img src="img/logo.svg" alt="Цифровые финансовые сервисы">
+        </a>
+        <div class="header__separator"></div>
+        <div class="header__descr">
+          <p>Комплексные индивидуальные решения
+            для бизнеса в цифровой экономике</p>
+        </div>
+      </div>
+      <div class="header__actions actions-header">
+        <div class="actions-header__inner">
+          <div class="actions-header__item">
+            <a class="actions-header__link contacts-item" href="tel:+70000000000" aria-label="Позвонить нам">
+              <span class="contacts-item__icon contacts-item__icon--header">
+                <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.528 13.238L15.0108 10.7207C14.1117 9.82173 12.5834 10.1814 12.2238 11.3501C11.9541 12.1592 11.0551 12.6087 10.246 12.4289C8.44795 11.9794 6.02061 9.64192 5.57111 7.754C5.3014 6.94485 5.84081 6.04583 6.64992 5.77617C7.81864 5.41656 8.17825 3.88824 7.27923 2.98922L4.76199 0.471982C4.04278 -0.157327 2.96397 -0.157327 2.33466 0.471982L0.626529 2.18011C-1.0816 3.97814 0.806332 8.74291 5.0317 12.9683C9.25706 17.1936 14.0218 19.1715 15.8199 17.3734L17.528 15.6653C18.1573 14.9461 18.1573 13.8673 17.528 13.238Z" />
+                </svg>
+              </span>
+              <span class="contacts-item__value contacts-item__value--hidden" aria-hidden="true">
+                <no-typography>+7 000 000-00-00</no-typography>
+              </span>
+            </a>
+          </div>
+          <div class="actions-header__item">
+            <a class="actions-header__link contacts-item" href="#" aria-label="Телеграм">
+              <span class="contacts-item__icon">
+                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M1.3749 7.81839C6.74359 5.4193 10.3236 3.83767 12.1148 3.0735C17.2292 0.891658 18.2919 0.512649 18.9846 0.500133C19.1369 0.497381 19.4776 0.536106 19.6982 0.719742C19.8845 0.874801 19.9358 1.08426 19.9603 1.23128C19.9848 1.37829 20.0154 1.71319 19.9911 1.97487C19.714 4.96165 18.5147 12.2098 17.9046 15.555C17.6465 16.9705 17.1382 17.4451 16.6461 17.4916C15.5766 17.5925 14.7645 16.7667 13.7287 16.0702C12.1078 14.9805 11.1921 14.3021 9.61879 13.2387C7.80053 12.0097 8.97923 11.3343 10.0154 10.2304C10.2866 9.94148 14.9987 5.54547 15.0899 5.14668C15.1013 5.09681 15.1119 4.91089 15.0042 4.81273C14.8965 4.71456 14.7376 4.74813 14.6229 4.77483C14.4604 4.81267 11.871 6.56807 6.85486 10.041C6.11988 10.5587 5.45416 10.8109 4.8577 10.7977C4.20015 10.7831 2.93528 10.4163 1.99498 10.1028C0.84166 9.7183 -0.074973 9.51501 0.00484519 8.86197C0.0464194 8.52183 0.503103 8.17397 1.3749 7.81839Z" />
+                </svg>
+              </span>
+            </a>
+          </div>
+          <div class="actions-header__item">
+            <a class="actions-header__link contacts-item" href="#" aria-label="Ватсап">
+              <span class="contacts-item__icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16.9643 2.94643C15.1339 1.07143 12.6339 0 9.95536 0C4.50893 0 0.0446429 4.46429 0.0446429 9.91072C0.0446429 11.6964 0.535714 13.3929 1.38393 14.8661L0 20L5.22321 18.6607C6.69643 19.4196 8.30357 19.8661 9.95536 19.8661C15.4464 19.8661 20 15.4018 20 9.95536C20 7.27679 18.8393 4.82143 16.9643 2.94643ZM9.95536 18.1696C8.48214 18.1696 7.05357 17.7679 5.75893 17.0089L5.49107 16.8304L2.36607 17.6786L3.21429 14.6429L2.99107 14.3304C2.1875 12.9911 1.74107 11.4732 1.74107 9.91072C1.74107 5.40179 5.44643 1.69643 10 1.69643C12.1875 1.69643 14.2411 2.54464 15.8036 4.10714C17.3661 5.66964 18.3036 7.72321 18.3036 9.95536C18.3036 14.4643 14.5089 18.1696 9.95536 18.1696ZM14.5089 12.0089C14.2411 11.875 13.0357 11.2946 12.8125 11.2054C12.5893 11.1161 12.4107 11.0714 12.2321 11.3393C12.0982 11.5625 11.6071 12.1429 11.4732 12.3214C11.2946 12.4554 11.1607 12.5 10.9375 12.3661C9.46429 11.6518 8.52679 11.0714 7.54464 9.41964C7.27679 8.97322 7.8125 9.01786 8.25893 8.08036C8.34821 7.90179 8.30357 7.76786 8.25893 7.63393C8.21429 7.5 7.67857 6.29464 7.5 5.80357C7.27679 5.3125 7.09821 5.35714 6.91964 5.35714C6.78571 5.35714 6.60714 5.35714 6.47321 5.35714C6.29464 5.35714 6.02679 5.40179 5.80357 5.66964C5.58036 5.9375 4.95536 6.51786 4.95536 7.72321C4.95536 8.97322 5.80357 10.1339 5.9375 10.3125C6.07143 10.4464 7.67857 12.9464 10.1786 14.0179C11.7411 14.7321 12.3661 14.7768 13.1696 14.6429C13.6161 14.5982 14.5982 14.0625 14.8214 13.4821C15.0446 12.9018 15.0446 12.4107 14.9554 12.3214C14.9107 12.1875 14.7321 12.1429 14.5089 12.0089Z" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+        <button type="button" class="actions-header__button btn btn--accent btn-reset"
+          data-popup="#feedback">Консультация</button>
+      </div>
+    </div>
+  </div>
+</header>
+    <main class="page">
+      <section class="page__hero hero _decor-block">
+        <div class="hero__container">
+          <div class="hero__body">
+            <div class="hero__content">
+              <div class="hero__inner">
+                <h1 class="hero__title">Финансовый директор, юрист
+                  и налоговый консультант</h1>
+                <p class="hero__sub-title h3">Для e-commerce, майнеров, блогеров
+                  и онлайн-предпринимателей — в одном месте</p>
+              </div>
+              <div class="hero__descr">
+                <p>Финансовая экспертиза и практические инструменты - все, что необходимо в одном месте</p>
+              </div>
+            </div>
+            <div class="hero__preview">
+              <picture>
+                <source srcset="img/hero/hero.webp, img/hero/hero_2x.webp 2x" type="image/webp">
+                <img src="img/hero/hero.png" srcset="img/hero/hero_2x.png 2x" loading="lazy" alt="">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__clients clients">
+        <div class="clients__container">
+          <div class="clients__body">
+            <div class="clients__top top-block">
+              <div class="top-block__body top-block__body--center">
+                <h2 class="top-block__title">Для наших клиентов — внешнеэкономические платежи от 1%:</h2>
+                <div class="top-block__descr">
+                  <p>Мы оплачиваем поставщикам, а Вы возмещаете нам сумму после того, как средства поступят поставщикам
+                    — легко и эффективно!</p>
+                </div>
+              </div>
+            </div>
+            <div class="clients__content content-clients">
+              <h3 class="content-clients__title">Кому открываем новые возможности</h3>
+              <div class="content-clients__body">
+                <ul class="content-clients__list list-reset">
+                  <li class="content-clients__item item-advantages">
+                    <div class="item-advantages__icon">
+                      <img src="img/clients/01.svg" alt="" loading="lazy">
+                    </div>
+                    <div class="item-advantages__body">
+                      <h4 class="item-advantages__title h5">Продавцы на маркетплейсах</h4>
+                      <div class="item-advantages__descr">
+                        <p>проблемы с расчетами, налогами, логистикой</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="content-clients__item item-advantages">
+                    <div class="item-advantages__icon">
+                      <img src="img/clients/02.svg" alt="" loading="lazy">
+                    </div>
+                    <div class="item-advantages__body">
+                      <h4 class="item-advantages__title h5">Майнеры</h4>
+                      <div class="item-advantages__descr">
+                        <p>легализация доходов, налоговая отчетность, работа с банками</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="content-clients__item item-advantages">
+                    <div class="item-advantages__icon">
+                      <img src="img/clients/03.svg" alt="" loading="lazy">
+                    </div>
+                    <div class="item-advantages__body">
+                      <h4 class="item-advantages__title h5">Блогеры и инфлюенсеры</h4>
+                      <div class="item-advantages__descr">
+                        <p>доходы от рекламы, спонсорств, защита контента</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="content-clients__item item-advantages">
+                    <div class="item-advantages__icon">
+                      <img src="img/clients/04.svg" alt="" loading="lazy">
+                    </div>
+                    <div class="item-advantages__body">
+                      <h4 class="item-advantages__title h5">Онлайн-школы и сервисы</h4>
+                      <div class="item-advantages__descr">
+                        <p>договоры, финансы, международные переводы</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="clients__info info-block">
+              <div class="info-block__body">
+                <h3 class="info-block__title">Делаем процессы цифровыми, а поддержку персональной</h3>
+                <div class="info-block__descr">
+                  <p>Финансы, право и налоги требуют индивидуального подхода.</p>
+                </div>
+              </div>
+              <div class="info-block__icon">
+                <img src="img/icons/shield.svg" alt="" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__advantages advantages _decor-block">
+        <h2 class="visually-hidden">Наши преимущества</h2>
+        <div class="advantages__container">
+          <ul class="advantages__items list-reset">
+            <li class="advantages__items-item item-advantages item-advantages--col item-advantages--light">
+              <h3 class="item-advantages__title item-advantages__title--wrap h2">Что Вы получаете</h3>
+              <div class="item-advantages__body">
+                <ul class="item-advantages__sub-list list-reset">
+                  <li class="item-advantages__sub-item">
+                    <span class="icon icon--check">Персонального финансового директора</span>
+                  </li>
+                  <li class="item-advantages__sub-item">
+                    <span class="icon icon--check">Персонального юриста</span>
+                  </li>
+                  <li class="item-advantages__sub-item">
+                    <span class="icon icon--check">Налогового консультанта</span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="advantages__items-item item-advantages item-advantages--col item-advantages--primary">
+              <div class="item-advantages__icon">
+                <img src="img/advantages/01.svg" alt="" loading="lazy">
+              </div>
+              <div class="item-advantages__body">
+                <h3 class="item-advantages__title h4">Комплексное управление проектами. Профессиональная команда — Ваш
+                  результат</h3>
+              </div>
+            </li>
+            <li class="advantages__items-item item-advantages item-advantages--col item-advantages--accent">
+              <div class="item-advantages__icon">
+                <img src="img/advantages/02.svg" alt="" loading="lazy">
+              </div>
+              <div class="item-advantages__body">
+                <h2 class="item-advantages__title h4">Никаких рекомендаций — только готовые решения и реальные
+                  инструменты.
+                </h2>
+              </div>
+            </li>
+          </ul>
+          <div class="advantages__body">
+            <div class="advantages__top top-block">
+              <div class="top-block__body top-block__body--center">
+                <h3 class="top-block__title h2">ТОП 5 наших ключевых решений</h3>
+              </div>
+            </div>
+            <ul class="advantages__list list-reset">
+              <li class="advantages__item item-advantages item-advantages--light">
+                <div class="item-advantages__body">
+                  <h4 class="item-advantages__title h3">Финансовые решения</h4>
+                  <ul class="item-advantages__sub-list list-reset">
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Открытие расчетных счетов, работа с ЦФА, интеграция с платежными
+                        системами</span>
+                    </li>
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Факторинг и кредитование для e-commerce</span>
+                    </li>
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Финансирование закупки оборудования для майнинга</span>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="advantages__item item-advantages item-advantages--light">
+                <div class="item-advantages__body">
+                  <h4 class="item-advantages__title h3">Налоговое сопровождение</h4>
+                  <ul class="item-advantages__sub-list list-reset">
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Открытие расчетных счетов, работа с ЦФА, интеграция с платежными
+                        системами</span>
+                    </li>
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Факторинг и кредитование для e-commerce</span>
+                    </li>
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Финансирование закупки оборудования для майнинга</span>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="advantages__item item-advantages item-advantages--light">
+                <div class="item-advantages__body">
+                  <h4 class="item-advantages__title h3">Юридическая поддержка</h4>
+                  <ul class="item-advantages__sub-list list-reset">
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Договоры с маркетплейсами и поставщиками, защита от
+                        блокировок</span>
+                    </li>
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Валютный контроль, защита активов, помощь в спорах</span>
+                    </li>
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Регистрация и защита интеллектуальной собственности (контент,
+                        бренды)</span>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="advantages__item item-advantages item-advantages--light">
+                <div class="item-advantages__body">
+                  <h4 class="item-advantages__title h3">Автоматизация учета и аналитика</h4>
+                  <ul class="item-advantages__sub-list list-reset">
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Приложения для учета доходов, расходов, налогов</span>
+                    </li>
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Финансовые дашборды, интеграция с CRM / Банками</span>
+                    </li>
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Предиктивная аналитика доходности бизнеса</span>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="advantages__item item-advantages item-advantages--light">
+                <div class="item-advantages__body">
+                  <h4 class="item-advantages__title h3">Международные платежи</h4>
+                  <ul class="item-advantages__sub-list list-reset">
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Сопровождение трансграничных операций</span>
+                    </li>
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Решения по обходу ограничений, сопровождение внешнеэкономической
+                        деятельности</span>
+                    </li>
+                    <li class="item-advantages__sub-item">
+                      <span class="icon icon--check">Работа с валютными счетами и юрисдикциями</span>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="advantages__info info-block">
+            <div class="info-block__body">
+              <h3 class="info-block__title">Технологии для бизнеса</h3>
+              <div class="info-block__descr">
+                <p>Персональное сопровождение для Вашего успеха</p>
+              </div>
+            </div>
+            <div class="info-block__icon">
+              <img src="img/icons/target.svg" alt="" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__choose choose">
+        <div class="choose__container">
+          <div class="choose__top top-block">
+            <div class="top-block__body top-block__body--center">
+              <h2 class="top-block__title">Почему выбирают нас</h2>
+            </div>
+          </div>
+          <div class="choose__body">
+            <ul class="choose__list list-reset">
+              <li class="choose__item item-advantages">
+                <div class="item-advantages__icon">
+                  <img src="img/choose/01.svg" alt="" loading="lazy">
+                </div>
+                <div class="item-advantages__body">
+                  <h4 class="item-advantages__title h5">Персональный доступ</h4>
+                  <div class="item-advantages__descr">
+                    <p>индивидуальные решения для Вашего бизнеса</p>
+                  </div>
+                </div>
+              </li>
+              <li class="choose__item item-advantages">
+                <div class="item-advantages__icon">
+                  <img src="img/choose/02.svg" alt="" loading="lazy">
+                </div>
+                <div class="item-advantages__body">
+                  <h4 class="item-advantages__title h5">Экосистема услуг</h4>
+                  <div class="item-advantages__descr">
+                    <p>всё в одном месте — финансы, юристы, налоги,автоматизация</p>
+                  </div>
+                </div>
+              </li>
+              <li class="choose__item item-advantages">
+                <div class="item-advantages__icon">
+                  <img src="img/choose/03.svg" alt="" loading="lazy">
+                </div>
+                <div class="item-advantages__body">
+                  <h4 class="item-advantages__title h5">Легальный подход</h4>
+                  <div class="item-advantages__descr">
+                    <p>работа с криптовалютой в рамках законодательства РФ, как для майнеров, так и для
+                      внешнеэкономических платежей</p>
+                  </div>
+                </div>
+              </li>
+              <li class="choose__item item-advantages">
+                <div class="item-advantages__icon">
+                  <img src="img/choose/04.svg" alt="" loading="lazy">
+                </div>
+                <div class="item-advantages__body">
+                  <h4 class="item-advantages__title h5">Прозрачная система </h4>
+                  <div class="item-advantages__descr">
+                    <p>тарифов и понятная клиентская поддержка</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="choose__info info-block">
+              <div class="info-block__body">
+                <h3 class="info-block__title">Технологии для бизнеса</h3>
+                <div class="info-block__descr">
+                  <p>Персональное сопровождение для Вашего успеха</p>
+                </div>
+              </div>
+              <div class="info-block__icon">
+                <img src="img/icons/target.svg" alt="" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__reviews reviews _decor-block">
+        <div class="reviews__container">
+          <div class="reviews__top top-block">
+            <div class="top-block__body top-block__body--center">
+              <h2 class="top-block__title">Кейсы и отзывы</h2>
+            </div>
+          </div>
+          <div class="reviews__slider slider-reviews">
+            <div class="slider-reviews__slider swiper">
+              <div class="slider-reviews__wrapper swiper-wrapper">
+                <div class="slider-reviews__slide swiper-slide">
+                  <div class="slider-reviews__item">
+                    <blockquote class="slider-reviews__text">
+                      <p>"Работая на маркетплейсах, мы столкнулись с множеством сложностей — от налогов до международных
+                        платежей. Команда этой
+                        компании взяла на себя весь комплекс задач: оптимизировали налоги, настроили и упростили расчёты
+                        с
+                        иностранными
+                        поставщиками с минимальными комиссиями, помогли снять банковские блокировки и закрыли претензии
+                        со
+                        стороны налоговой.
+                        Благодаря этому мы теперь просто зарабатываем, не отвлекаясь на финансовые и юридические
+                        проблемы.
+                        Мы поняли главное: ни
+                        одна цифровая платформа не заменит индивидуального подхода опытных профессионалов. Здесь он есть
+                        —
+                        и это даёт
+                        результат."</p>
+                    </blockquote>
+                    <span class="slider-reviews__name">— Иван П., продавец на Wildberries и Ozon</span>
+                  </div>
+                </div>
+                <div class="slider-reviews__slide swiper-slide">
+                  <div class="slider-reviews__item">
+                    <blockquote class="slider-reviews__text">
+                      <p>"Создаваемое в России законодательство в сфере майнинга
+                        порождает массу правовых и финансовых вопросов, с которыми
+                        невозможно справиться без профессиональной поддержки. Команда этой компании стала для нас
+                        ключевым
+                        партнёром: они
+                        разработали прозрачную и законную схему трансформации криптовалюты в рубли, выстроили систему
+                        налогообложения в
+                        соответствии с действующим законодательством. Наши доходы теперь полностью легальны — мы
+                        свободно
+                        распоряжаемся ими,
+                        инвестируем в новые проекты и уверенно расширяем мощности. Более того, нам удалось привлечь
+                        дополнительное
+                        финансирование для масштабирования бизнеса. Это не просто консультации — это настоящая
+                        финансово-юридическая стратегия
+                        для майнинга, которая работает."</p>
+                    </blockquote>
+                    <span class="slider-reviews__name">— Алексей К., частный майнер</span>
+                  </div>
+                </div>
+                <div class="slider-reviews__slide swiper-slide">
+                  <div class="slider-reviews__item">
+                    <blockquote class="slider-reviews__text">
+                      <p>"Как владелец онлайн-школы, я столкнулся с типичными для
+                        EdTech-продукта проблемами: как правильно оформлять платежи от
+                        физических лиц и ИП, как не попасть под блокировку банка, как выстроить налоговую модель при
+                        работе с самозанятыми и
+                        внешними экспертами. Команда компании полностью закрыла для нас эти вопросы — структурировали
+                        юридическую схему,
+                        оптимизировали налоги, помогли с договорами и платежами, а главное — выстроили надёжные
+                        отношения
+                        с банками, обеспечив
+                        стабильный приём платежей от учеников. Теперь мы можем спокойно развивать проект,
+                        масштабироваться, принимать оплату без
+                        рисков и привлекать инвестиции в рост. Поняли, что универсальные сервисы не решают
+                        индивидуальные
+                        задачи — нужен
+                        профессиональный подход. Здесь мы его получили."</p>
+                    </blockquote>
+                    <span class="slider-reviews__name">— Мария С., основатель онлайн-школы</span>
+                  </div>
+                </div>
+                <div class="slider-reviews__slide swiper-slide">
+                  <div class="slider-reviews__item">
+                    <blockquote class="slider-reviews__text">
+                      <p>"Работая на маркетплейсах, мы столкнулись с множеством сложностей — от налогов до международных
+                        платежей. Команда этой
+                        компании взяла на себя весь комплекс задач: оптимизировали налоги, настроили и упростили расчёты
+                        с
+                        иностранными
+                        поставщиками с минимальными комиссиями, помогли снять банковские блокировки и закрыли претензии
+                        со
+                        стороны налоговой.
+                        Благодаря этому мы теперь просто зарабатываем, не отвлекаясь на финансовые и юридические
+                        проблемы.
+                        Мы поняли главное: ни
+                        одна цифровая платформа не заменит индивидуального подхода опытных профессионалов. Здесь он есть
+                        —
+                        и это даёт
+                        результат."</p>
+                    </blockquote>
+                    <span class="slider-reviews__name">— Иван П., продавец на Wildberries и Ozon</span>
+                  </div>
+                </div>
+                <div class="slider-reviews__slide swiper-slide">
+                  <div class="slider-reviews__item">
+                    <blockquote class="slider-reviews__text">
+                      <p>"Создаваемое в России законодательство в сфере майнинга
+                        порождает массу правовых и финансовых вопросов, с которыми
+                        невозможно справиться без профессиональной поддержки. Команда этой компании стала для нас
+                        ключевым
+                        партнёром: они
+                        разработали прозрачную и законную схему трансформации криптовалюты в рубли, выстроили систему
+                        налогообложения в
+                        соответствии с действующим законодательством. Наши доходы теперь полностью легальны — мы
+                        свободно
+                        распоряжаемся ими,
+                        инвестируем в новые проекты и уверенно расширяем мощности. Более того, нам удалось привлечь
+                        дополнительное
+                        финансирование для масштабирования бизнеса. Это не просто консультации — это настоящая
+                        финансово-юридическая стратегия
+                        для майнинга, которая работает."</p>
+                    </blockquote>
+                    <span class="slider-reviews__name">— Алексей К., частный майнер</span>
+                  </div>
+                </div>
+                <div class="slider-reviews__slide swiper-slide">
+                  <div class="slider-reviews__item">
+                    <blockquote class="slider-reviews__text">
+                      <p>"Как владелец онлайн-школы, я столкнулся с типичными для
+                        EdTech-продукта проблемами: как правильно оформлять платежи от
+                        физических лиц и ИП, как не попасть под блокировку банка, как выстроить налоговую модель при
+                        работе с самозанятыми и
+                        внешними экспертами. Команда компании полностью закрыла для нас эти вопросы — структурировали
+                        юридическую схему,
+                        оптимизировали налоги, помогли с договорами и платежами, а главное — выстроили надёжные
+                        отношения
+                        с банками, обеспечив
+                        стабильный приём платежей от учеников. Теперь мы можем спокойно развивать проект,
+                        масштабироваться, принимать оплату без
+                        рисков и привлекать инвестиции в рост. Поняли, что универсальные сервисы не решают
+                        индивидуальные
+                        задачи — нужен
+                        профессиональный подход. Здесь мы его получили."</p>
+                    </blockquote>
+                    <span class="slider-reviews__name">— Мария С., основатель онлайн-школы</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__buttons">
+            <button type="button" class="reviews__button btn btn--accent btn-reset">Я
+              продавец</button>
+            <button type="button" class="reviews__button btn btn--accent btn-reset">Я
+              майнер</button>
+            <button type="button" class="reviews__button btn btn--accent btn-reset">Я
+              блогер</button>
+            <button type="button" class="reviews__button btn btn--accent btn-reset">Другое</button>
+          </div>
+          <div class="reviews__arrows arrows-slider">
+            <button type="button" class="arrows-slider__arrow arrows-slider__arrow--prev btn-reset">
+              <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.8215 1.2915L1.66691 11.4461L11.8215 21.6008" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+            <button type="button" class="arrows-slider__arrow arrows-slider__arrow--next btn-reset">
+              <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.8215 1.2915L1.66691 11.4461L11.8215 21.6008" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="page__how-works how-works _decor-block _decor-block--accent">
+        <div class="how-works__container">
+          <div class="how-works__top top-block">
+            <div class="top-block__body top-block__body--center">
+              <h2 class="top-block__title">Как мы работаем</h2>
+            </div>
+          </div>
+          <div class="how-works__body">
+            <ul class="how-works__list list-reset">
+              <li class="how-works__item">
+                <div class="how-works__label h3">Вы оставляете заявку</div>
+              </li>
+              <li class="how-works__item">
+                <div class="how-works__label h3">Подписываем договор
+                  (в оффлайне или онлайн)</div>
+              </li>
+              <li class="how-works__item">
+                <div class="how-works__label h3">Вы получаете доступ к личному менеджеру
+                  и системе сопровождения</div>
+              </li>
+              <li class="how-works__item">
+                <div class="how-works__label h3">Ваша прибыль и безопасность растут</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+  <div class="footer__main main-footer">
+    <div class="main-footer__container">
+      <div class="main-footer__body">
+        <div class="main-footer__info">
+          <div class="main-footer__logo">
+            <img src="img/logo.svg" alt="" loading="lazy">
+          </div>
+          <div class="main-footer__label">всё для цифрового бизнеса</div>
+        </div>
+        <div class="main-footer__menu menu-footer">
+          <div class="menu-footer__column">
+            <ul class="menu-footer__list list-reset">
+              <li class="menu-footer__item"><a class="menu-footer__link" href="#">Кому мы помогаем</a></li>
+              <li class="menu-footer__item"><a class="menu-footer__link" href="#">Что Вы получаете</a></li>
+              <li class="menu-footer__item"><a class="menu-footer__link" href="#">Ключевые решения</a></li>
+            </ul>
+          </div>
+          <div class="menu-footer__column">
+            <ul class="menu-footer__list list-reset">
+              <li class="menu-footer__item"><a class="menu-footer__link" href="#">Почему выбирают нас</a></li>
+              <li class="menu-footer__item"><a class="menu-footer__link" href="#">Кейсы и отзывы</a></li>
+              <li class="menu-footer__item"><a class="menu-footer__link" href="#">Как мы работаем</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-footer__contacts contacts-footer">
+          <ul class="contacts-footer__list list-reset">
+            <li class="contacts-footer__item">
+              <a class="contacts-footer__link contacts-item contacts-item--icon" href="tel:+70000000000"
+                aria-label="Позвонить нам">
+                <span class="contacts-item__icon">
+                  <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M18.278 13.238L15.7608 10.7207C14.8617 9.82173 13.3334 10.1814 12.9738 11.3501C12.7041 12.1592 11.8051 12.6087 10.996 12.4289C9.19795 11.9794 6.77061 9.64192 6.32111 7.754C6.0514 6.94485 6.59081 6.04583 7.39992 5.77617C8.56864 5.41656 8.92825 3.88824 8.02923 2.98922L5.51199 0.471982C4.79278 -0.157327 3.71397 -0.157327 3.08466 0.471982L1.37653 2.18011C-0.331597 3.97814 1.55633 8.74291 5.7817 12.9683C10.0071 17.1936 14.7718 19.1715 16.5699 17.3734L18.278 15.6653C18.9073 14.9461 18.9073 13.8673 18.278 13.238Z" />
+                  </svg>
+                </span>
+                <span class="contacts-item__value" aria-hidden="true">+7 000 000-00-00</span>
+              </a>
+            </li>
+            <li class="contacts-footer__item">
+              <a class="contacts-footer__link contacts-item" href="#" aria-label="Телеграм">
+                <span class="contacts-item__icon">
+                  <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M2.1249 7.81839C7.49359 5.4193 11.0736 3.83767 12.8648 3.0735C17.9792 0.891658 19.0419 0.512649 19.7346 0.500133C19.8869 0.497381 20.2276 0.536106 20.4482 0.719742C20.6345 0.874801 20.6858 1.08426 20.7103 1.23128C20.7348 1.37829 20.7654 1.71319 20.7411 1.97487C20.464 4.96165 19.2647 12.2098 18.6546 15.555C18.3965 16.9705 17.8882 17.4451 17.3961 17.4916C16.3266 17.5925 15.5145 16.7667 14.4787 16.0702C12.8578 14.9805 11.9421 14.3021 10.3688 13.2387C8.55053 12.0097 9.72923 11.3343 10.7654 10.2304C11.0366 9.94148 15.7487 5.54547 15.8399 5.14668C15.8513 5.09681 15.8619 4.91089 15.7542 4.81273C15.6465 4.71456 15.4876 4.74813 15.3729 4.77483C15.2104 4.81267 12.621 6.56807 7.60486 10.041C6.86988 10.5587 6.20416 10.8109 5.6077 10.7977C4.95015 10.7831 3.68528 10.4163 2.74498 10.1028C1.59166 9.7183 0.675027 9.51501 0.754845 8.86197C0.796419 8.52183 1.2531 8.17397 2.1249 7.81839Z" />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li class="contacts-footer__item">
+              <a class="contacts-footer__link contacts-item" href="#" aria-label="Телеграм">
+                <span class="contacts-item__icon">
+                  <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M17.7143 2.94643C15.8839 1.07143 13.3839 0 10.7054 0C5.25893 0 0.794643 4.46429 0.794643 9.91072C0.794643 11.6964 1.28571 13.3929 2.13393 14.8661L0.75 20L5.97321 18.6607C7.44643 19.4196 9.05357 19.8661 10.7054 19.8661C16.1964 19.8661 20.75 15.4018 20.75 9.95536C20.75 7.27679 19.5893 4.82143 17.7143 2.94643ZM10.7054 18.1696C9.23214 18.1696 7.80357 17.7679 6.50893 17.0089L6.24107 16.8304L3.11607 17.6786L3.96429 14.6429L3.74107 14.3304C2.9375 12.9911 2.49107 11.4732 2.49107 9.91072C2.49107 5.40179 6.19643 1.69643 10.75 1.69643C12.9375 1.69643 14.9911 2.54464 16.5536 4.10714C18.1161 5.66964 19.0536 7.72321 19.0536 9.95536C19.0536 14.4643 15.2589 18.1696 10.7054 18.1696ZM15.2589 12.0089C14.9911 11.875 13.7857 11.2946 13.5625 11.2054C13.3393 11.1161 13.1607 11.0714 12.9821 11.3393C12.8482 11.5625 12.3571 12.1429 12.2232 12.3214C12.0446 12.4554 11.9107 12.5 11.6875 12.3661C10.2143 11.6518 9.27679 11.0714 8.29464 9.41964C8.02679 8.97322 8.5625 9.01786 9.00893 8.08036C9.09821 7.90179 9.05357 7.76786 9.00893 7.63393C8.96429 7.5 8.42857 6.29464 8.25 5.80357C8.02679 5.3125 7.84821 5.35714 7.66964 5.35714C7.53571 5.35714 7.35714 5.35714 7.22321 5.35714C7.04464 5.35714 6.77679 5.40179 6.55357 5.66964C6.33036 5.9375 5.70536 6.51786 5.70536 7.72321C5.70536 8.97322 6.55357 10.1339 6.6875 10.3125C6.82143 10.4464 8.42857 12.9464 10.9286 14.0179C12.4911 14.7321 13.1161 14.7768 13.9196 14.6429C14.3661 14.5982 15.3482 14.0625 15.5714 13.4821C15.7946 12.9018 15.7946 12.4107 15.7054 12.3214C15.6607 12.1875 15.4821 12.1429 15.2589 12.0089Z" />
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li class="contacts-footer__item">
+              <a class="contacts-footer__link contacts-item contacts-item--icon" href="mailto:info@mail.ru"
+                aria-label="Написать письмо">
+                <span class="contacts-item__icon">
+                  <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10.75 12C10.15 12 9.65 11.8 9.15 11.6L0.75 6.4V13C0.75 14.7 2.05 16 3.75 16H17.75C19.45 16 20.75 14.7 20.75 13V6.4L12.35 11.6C11.85 11.8 11.35 12 10.75 12ZM17.75 0H3.75C2.05 0 0.75 1.3 0.75 3V4.1L10.25 9.9C10.55 10.1 10.95 10.1 11.25 9.9L20.75 4.1V3C20.75 1.3 19.45 0 17.75 0Z" />
+                  </svg>
+                </span>
+                <span class="contacts-item__value" aria-hidden="true">info@mail.ru</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-footer__socials socials">
+          <ul class="socials__list list-reset">
+            <li class="socials__item">
+              <a class="socials__link socials__link--vk" href="#" aria-label="Вконтакте">
+                <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.2615 15.5559C5.15307 15.5559 0.528167 10.0474 0.335449 0.881348H4.39711C4.53052 7.60902 7.52481 10.4587 9.89655 11.0463V0.881348H13.7212V6.68356C16.0633 6.43385 18.5237 3.78982 19.3538 0.881348H23.1784C22.5409 4.46554 19.8727 7.10957 17.9753 8.19657C19.8727 9.07792 22.9117 11.3841 24.0679 15.5559H19.8579C18.9537 12.765 16.7007 10.6056 13.7212 10.3118V15.5559H13.2615Z" />
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link socials__link--telegram" href="#" aria-label="Телеграм">
+                <svg width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M2.25315 7.78843C8.08355 5.24822 11.9714 3.57355 13.9167 2.76444C19.4709 0.454248 20.625 0.0529434 21.3773 0.0396921C21.5427 0.0367776 21.9126 0.0777804 22.1523 0.272219C22.3546 0.436399 22.4103 0.658183 22.4369 0.813844C22.4636 0.969505 22.4967 1.3241 22.4704 1.60118C22.1694 4.76365 20.867 12.4381 20.2045 15.9802C19.9241 17.4789 19.3721 17.9815 18.8376 18.0306C17.6762 18.1375 16.7943 17.2631 15.6693 16.5257C13.9091 15.3718 12.9147 14.6535 11.206 13.5276C9.23139 12.2263 10.5115 11.5111 11.6368 10.3423C11.9313 10.0364 17.0486 5.38181 17.1477 4.95957C17.16 4.90676 17.1715 4.70991 17.0546 4.60597C16.9377 4.50203 16.7651 4.53757 16.6405 4.56584C16.464 4.60591 13.6519 6.46456 8.20439 10.1418C7.40621 10.6899 6.68323 10.9569 6.03547 10.943C5.32137 10.9275 3.94772 10.5392 2.92655 10.2072C1.67405 9.80011 0.678589 9.58485 0.765272 8.8934C0.810421 8.53325 1.30638 8.16493 2.25315 7.78843Z" />
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link socials__link--youtube" href="#" aria-label="Ютуб">
+                <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.9794 2.31349C18.7633 1.51023 18.13 0.877029 17.3268 0.660736C15.8596 0.259277 9.99049 0.259277 9.99049 0.259277C9.99049 0.259277 4.12162 0.259277 2.65437 0.645515C1.86668 0.86158 1.21791 1.51035 1.00185 2.31349C0.615723 3.78062 0.615723 6.82326 0.615723 6.82326C0.615723 6.82326 0.615723 9.88124 1.00185 11.333C1.21814 12.1362 1.85123 12.7694 2.65449 12.9857C4.13707 13.3872 9.99072 13.3872 9.99072 13.3872C9.99072 13.3872 15.8596 13.3872 17.3268 13.001C18.1301 12.7848 18.7633 12.1516 18.9796 11.3485C19.3656 9.88124 19.3656 6.83871 19.3656 6.83871C19.3656 6.83871 19.3811 3.78062 18.9794 2.31349ZM8.1219 9.63416V4.01237L13.0023 6.82326L8.1219 9.63416Z" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom bottom-footer">
+    <div class="bottom-footer__container">
+      <div class="bottom-footer__body">
+        <div class="bottom-footer__copy">© 2024 Цифровые Финансовые Сервисы</div>
+        <div class="bottom-footer__items">
+          <div class="bottom-footer__item">
+            <a href="#">Политика конфиденциальности</a>
+          </div>
+          <div class="bottom-footer__item">
+            <a href="#">Договор оферты</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+
+  <div id="popup" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <button data-close type="button" class="popup__close">Закрыть</button>
+      <div class="popup__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam voluptatum inventore
+        voluptatibus at cumque iste, quas molestias nihil eos est sit vitae, iusto ipsum tenetur. Illum ipsum nesciunt
+        totam! Expedita minus nesciunt nihil? Repudiandae aperiam soluta debitis, fugit sint quaerat, quo iure dolorum
+        accusantium quis tempora similique suscipit pariatur maiores. Aliquam veritatis sit iste mollitia harum magni
+        commodi placeat minus debitis. Voluptatum dolor ipsa totam distinctio. Necessitatibus architecto minima aliquam,
+        laudantium magni odit atque, modi error maxime pariatur exercitationem consequatur reprehenderit quae voluptate
+        blanditiis amet temporibus ducimus? Sapiente et eos praesentium distinctio fugiat, dolores quod cupiditate
+        similique repellat natus.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="feedback" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <button data-close type="button" class="popup__close btn-reset"></button>
+      <div class="popup__feedback feedback">
+        <div class="feedback__title h3">Получить персональное предложение</div>
+        <form class="feedback__form form-feedback" action="#">
+          <div class="form-feedback__body">
+            <div class="form-feedback__item">
+              <input autocomplete="off" type="text" name="feedback-name" placeholder="Имя" class="form-feedback__input"
+                data-required data-min-length="2">
+            </div>
+            <div class="form-feedback__item">
+              <input autocomplete="off" type="text" name="feedback-contact" placeholder="Контакт"
+                class="form-feedback__input" data-required>
+            </div>
+            <div class="form-feedback__item">
+              <textarea autocomplete="off" name="feedback-message" placeholder="Комментарии"
+                class="form-feedback__input" data-required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="form-feedback__button btn btn--accent btn-reset">Получить персональное
+            предложение</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="js/app.min.js?_v=20250420205846"></script>
+</body>
+
+</html>
